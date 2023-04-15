@@ -1,0 +1,91 @@
+@media screen and (min-width: 1440px) {
+  .container-fluid {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .container-fluid > .footer > .footer_items {
+    width: 100%;
+  }
+  .container-fluid > .footer > .footer_items > .footer_item {
+    margin: 20px;
+    width: 50vw;
+  }
+  .container-fluid > .footer > .footer_items > .magazin_info {
+    margin: 20px;
+    width: 50vw;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .container-fluid > .product_main > .product_bodys {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-fluid > .product_main > .product_bodys > .product_carusel {
+    width: 70%;
+    margin: auto;
+  }
+  .container-fluid > .product_main > .product_bodys > .product_info {
+    width: 70%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 870px) {
+  .container-fluid > .navbar > .nav {
+    flex-direction: column-reverse;
+  }
+  .container-fluid > .navbar > .nav > .nav_info {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .container-fluid > .navbar > .nav > .nav_logo {
+    margin-top: 15px;
+  }
+  .container-fluid > .navbar > .nav > .nav_end {
+    margin-top: 15px;
+  }
+  .container-fluid > .navbar > .nav_menu > ul > li {
+    margin: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container-fluid > .product_main > .product_bodys {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-fluid > .product_main > .product_bodys > .product_carusel {
+    width: 80%;
+    margin: auto;
+  }
+  .container-fluid > .product_main > .product_bodys > .product_info {
+    width: 80%;
+    margin: auto;
+  }
+  .container-fluid > .product_main > .product_bodys > .product_info > .product_body > .product_social {
+    width: 50%;
+    justify-content: flex-start;
+  }
+  .container-fluid > .product_main > .product_bodys > .product_info > .product_body > .product_social > p {
+    margin-left: 15px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container-fluid > .product_main > .product_bodys {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-fluid > .product_main > .product_bodys > .product_carusel {
+    width: 100%;
+    margin: auto;
+  }
+  .container-fluid > .product_main > .product_bodys > .product_info {
+    width: 100%;
+    margin: auto;
+  }
+}/*# sourceMappingURL=productResponsive.css.map */

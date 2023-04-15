@@ -1,0 +1,637 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container-fluid{
+    max-width: 1440px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color:   #e7d5b16b;
+
+    & > .navbar{
+        width: 100%;
+        color: rgb(180, 175, 175);
+        padding-top: 0px;
+        
+        & > .nav{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: #333152;
+
+            & > .nav_info{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                & > select{
+                    font-size: 13px;
+                    background-color: #333152;
+                    border: none;
+                    color: rgb(180, 175, 175);
+                }
+
+                & > .addres{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 10px;
+                    & > p{
+                        margin-bottom: 0px;
+                        font-size: 13px;
+                        margin-left: 5px;
+                    }
+                }
+            }
+
+            & > .nav_logo{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                
+                & > .logo_info{
+                    & > .med{
+                        margin-bottom: 0px;
+                        font-size: 20px;
+                        & > span{
+                            color: red;
+                        }
+                    }
+                    & > p:nth-child(2){
+                        font-size: 8px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+            & > .nav_end{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                & > .addres{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 10px;
+                    & > p{
+                        margin-bottom: 0px;
+                        margin-left: 5px;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+
+        & > .nav_menu{
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            & > ul{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                flex-wrap: wrap;
+                align-items: center;
+                margin-bottom: 0px;
+                & > li{
+                    margin: 0px 20px;
+                    & > a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                    & > select{
+                        border: none;
+                        color: black;
+                        background-color: #F5EDDE;
+                    }
+                }
+            }
+        }
+    }
+
+    & > .product_main{
+        & > p{
+            text-align: center;
+            opacity: 0.6;
+        }
+        & > .product_bodys{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+                   
+            & > .product_carusel{
+                width: 60%;
+                & > .product_title{
+                    width: 73%;
+                    margin: auto;
+                    & > h4{
+                        & > span{
+                            text-decoration: none;
+                            border-bottom: 1px solid red;
+                            padding-bottom: 2px;
+                        }
+                    }
+                    
+                }
+                & > .carusel4{
+                    & > .owl-nav{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        font-size: 30px;
+                        position: absolute;
+                        top: 40%;
+                        
+                    }
+                    & > .owl-stage-outer{
+                        & > .owl-stage{
+                            & > .owl-item{
+                                width: 270px;
+                                height: auto;
+                                & > .item{
+                                    position: relative;
+                                    & > img{
+                                        width: 100%;
+                                    }
+                                    & > button{
+                                        position:absolute;
+                                        border: none;
+                                        font-size: 0.9rem;
+                                        padding: 4px 8px;
+                                    }
+                                    & > .btn1{
+                                        top: 10px;
+                                        left: 10px;
+                                        background-color: #F4F4F4;
+                                        color: black;
+                                    }
+                                    & > .btn2{
+                                        top: 40px;
+                                        left: 10px;
+                                        background-color: #333152;
+                                        color: white;
+                                    }
+                                    & > .btn3{
+                                        bottom: 10px;
+                                        left: 10px;
+                                        background-color: #EA4953;
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+            }  
+
+            & > .product_info{
+                width: 30%;
+                align-self: center;
+                padding-bottom: 80px;
+                
+                & > .info_title{
+                    & > p{
+                        &:nth-child(1){
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+                        &:nth-child(2){
+                            color: gray;
+                            font-size: 10px;
+                        }
+                    }
+                }
+                
+                & > .product_body{
+                    
+                    & > label{
+                        font-weight: 200;
+                        font-size: 12px;
+                        margin-left: 20px;
+                        color: gray;
+                    }
+                    & > input{
+                        font-size: 40px;
+                    }
+                    & > .product_social{
+                        width: 32%;
+                        margin-top: 20px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        & > p{
+                            margin-bottom: 0px;
+                            color: gray;
+                        }
+                    }
+                    & > select{
+                        width: 70%;
+                        padding: 10px;
+                        border: 1px solid grey;
+                        margin-top: 10px;
+                    }
+                    & > button{
+                        width: 70%;
+                        padding: 10px;
+                        border: none;
+                        color: white;
+                        background-color: #333152;
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+                        font-size: 10px;
+
+                    }
+
+                    & > .offcanvas{
+                        & > .offcanvas-body{
+                            & > .sell_info{
+                                & > .spacer_box{
+                                    padding: 5px;
+                                    & > p{
+                                        color: black;
+                                        font-size: 20px;
+                                    }
+                                }
+                                & > .sell_products{
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                    & > .sell_product{
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: space-around;
+                                        align-items: center;
+                                        margin-top: 30px;
+                                        & > img{
+                                            width: 70px;
+                                            display: block;
+                                            margin-right: 30px;
+                                        }
+                                        & > .sell_information{
+                                            margin-right: 10px;
+                                        }
+                                    }
+                                }
+                                & > .sum{
+                                    margin: auto;
+                                    width: 82%;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-between;
+                                    margin-top: 20px;
+                                    & > p{
+                                        &:nth-child(1){
+                                            font-size: 18px;
+                                        }
+                                        &:nth-child(2){
+                                            font-weight: 600;
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                                & > button{
+                                    display: block;
+                                    width: 83%;
+                                    margin: auto;
+                                    border: none;
+                                }
+                                & > button:nth-child(4){
+                                    padding: 10px;
+                                    background-color: #333152;
+                                    color: white;
+                                    
+                                }
+                                & > button:nth-child(5){
+                                    margin-bottom: 10px;
+                                    padding: 10px;
+                                }
+                                        
+                            }
+                        }
+                    }
+                                        
+                    & > .product_texts{
+                        & > .product_text{
+                            width: 70%;
+                            padding: 10px 0px;
+                            border-top: 1px solid grey;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            & > p{
+                                margin-bottom: 0px;
+                            }
+                            &:nth-child(3){
+                                border-bottom: 1px solid grey;
+                            }
+                        }
+                    }
+                }            
+            }
+        }
+
+        
+    }
+
+    & > .adver1_carusel{
+        max-width: 1200px;
+        margin: auto;
+        & > .adver1_title{
+            width: 73%;
+            margin: auto;
+            & > h4{
+                & > span{
+                    text-decoration: none;
+                    border-bottom: 1px solid red;
+                    padding-bottom: 2px;
+                }
+            }
+            
+        }
+        & > .carusel5{
+            & > .owl-nav{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                position: absolute;
+                top: 40%;
+                & > .owl-next{
+                    font-size: 25px;
+                    border-radius: 50%;
+                    border: 1px solid;
+                    width: 30px;
+                    height: 35px;
+                    opacity: 0.7;
+                }
+                & > .owl-prev{
+                    font-size: 25px;
+                    border-radius: 50%;
+                    border: 1px solid;
+                    width: 30px;
+                    height: 35px;
+                }
+                
+            }
+            & > .owl-stage-outer{
+                & > .owl-stage{
+                    & > .owl-item{
+                        width: 270px;
+                        height: auto;
+                        & > .item{
+                            position: relative;
+                            & > img{
+                                width: 100%;
+                            }
+                            & > button{
+                                position:absolute;
+                                border: none;
+                                font-size: 0.9rem;
+                                padding: 4px 8px;
+                            }
+                            & > .btn1{
+                                top: 10px;
+                                left: 10px;
+                                background-color: #F4F4F4;
+                                color: black;
+                            }
+                            & > .btn2{
+                                top: 40px;
+                                left: 10px;
+                                background-color: #333152;
+                                color: white;
+                            }
+                            & > .btn3{
+                                bottom: 10px;
+                                left: 10px;
+                                background-color: #EA4953;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+
+    & > .adver2_carusel{
+        max-width: 1200px;
+        margin: auto;
+        & > .adver2_title{
+            width: 73%;
+            margin: auto;
+            & > h4{
+                & > span{
+                    text-decoration: none;
+                    border-bottom: 1px solid red;
+                    padding-bottom: 2px;
+                }
+            }
+            
+        }
+        & > .carusel6{
+            & > .owl-nav{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                font-size: 25px;
+                position: absolute;
+                top: 40%;
+                & > .owl-next{
+                    font-size: 25px;
+                    border-radius: 50%;
+                    border: 1px solid;
+                    width: 30px;
+                    height: 35px;
+                    opacity: 0.7;
+                }
+                & > .owl-prev{
+                    font-size: 25px;
+                    border-radius: 50%;
+                    border: 1px solid;
+                    width: 30px;
+                    height: 35px;
+                }
+            }
+            & > .owl-stage-outer{
+                & > .owl-stage{
+                    & > .owl-item{
+                        width: 270px;
+                        height: auto;
+                        & > .item{
+                            position: relative;
+                            & > img{
+                                width: 100%;
+                            }
+                            & > button{
+                                position:absolute;
+                                border: none;
+                                font-size: 0.9rem;
+                                padding: 4px 8px;
+                            }
+                            & > .btn1{
+                                top: 10px;
+                                left: 10px;
+                                background-color: #F4F4F4;
+                                color: black;
+                            }
+                            & > .btn2{
+                                top: 40px;
+                                left: 10px;
+                                background-color: #333152;
+                                color: white;
+                            }
+                            & > .btn3{
+                                bottom: 10px;
+                                left: 10px;
+                                background-color: #EA4953;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+    }  
+
+    & > .footer{
+        width: 100%;
+        background-color: #F6F6F7;
+        padding: 30px 0px;
+        margin-top: 30px;
+        & > .footer_items{
+            width: 95%;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            & > .footer_item{
+                width: 23%;
+                &:nth-child(1){
+                    align-self: flex-start;
+                }
+                & > .nav_logo{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: flex-start;
+                    
+                    & > .logo_info{
+                        & > .med{
+                            margin-bottom: 0px;
+                            font-size: 20px;
+                            & > span{
+                                color: red;
+                                text-decoration: none;
+
+                            }
+                        }
+                        & > p:nth-child(2){
+                            font-size: 8px;
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+                & > .item_social{
+                    padding-left: 70px;
+
+                }
+                & > h6{
+                    font-weight: 600;
+                }
+
+                & > ul{
+                   padding-left: 0px;
+                   & > li{
+                        & > a{
+                            color: black;
+                            font-size: 12px;
+                            opacity: 0.9;
+                        
+                        }
+                    }
+                }
+            }
+            & > .magazin_info{
+                width: 23%;
+                display: flex;
+                align-self: flex-start;
+                flex-direction: column;
+                & > .magazin__title{
+                    margin-bottom: 5px;
+                    & > h6{
+                        font-weight: 600;
+                    }
+                }
+                & > .magazin_about{
+                    & > p{
+                        opacity: 0.9;
+                    }
+                }
+                & > .magazin_social{
+                    & > i{
+                        &:nth-child(1){
+                            color: white;
+                            background-color: #935BBE;
+                            border: none;
+                            border-radius: 5px;
+                            padding: 3px;
+                        }
+                        &:nth-child(2){
+                            color: white;
+                            background-color: #0087D0;
+                            border: none;
+                            border-radius: 5px;
+                            padding: 3px;
+                        }
+                        &:nth-child(3){
+                            color: white;
+                            background-color: #27D061;
+                            border: none;
+                            border-radius: 5px;
+                            padding: 3px;
+                        }
+                    }
+                }
+            }
+        }
+
+        & > .footer_end{
+            width: 100%;
+            margin-top: 30px;
+            padding-top: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            border-top: 1px solid rgb(223, 215, 215);
+            & > p{
+                opacity: 0.5;
+                margin-left: 20px;
+            }
+        }
+    }
+
+}
+
+
